@@ -40,7 +40,7 @@ document.getElementById('bakkerijnaam').innerHTML = naam + "'s Donut Bakery";
 
 const donut_div = document.getElementById('donut');
 //past de css van de  background van de donut aan met de file naam van: "/images/{kleur}-donut.png" {} haalt uit en veranderd
-donut_div.style.backgroundImage = 'url(" /images/'+ kleur +'-donut.png ")';
+donut_div.style.backgroundImage = 'url("images/'+ kleur +'-donut.png ")';
 donut_div.style.backgroundColor = 'transparent';
 donut_div.style.backgroundSize = 'cover';
 donut_div.style.backgroundRepeat = 'no-repeat';

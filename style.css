@@ -1,0 +1,121 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  @font-face {
+    font-family: 'PinkyDonutsRegular';
+    src: url(fonts/PinkyDonutsRegular.ttf);
+  }
+  
+  .gallery-img {
+   
+    width: auto;
+    height: auto; /* Adjust height as needed */
+    margin-right: 100px;
+    
+    
+  }
+
+   .container {
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+  
+  } 
+
+  header {
+    text-align: center;
+    font-size: 200px;
+    font-family:  'PinkyDonutsRegular' ;
+  }
+
+  h1 {
+    margin-top: 5em;
+    text-align: center;  
+  }
+
+  head{
+    font-family: 'Bubbly';
+  }
+
+
+  input[type=radio]:checked + label {
+    border-radius: 50%;
+  }
+
+  input[type=radio][value=blauwe]:checked + label {
+    border: #2DB3E5 5px solid;
+  }
+  
+  input[type=radio][value=roze]:checked + label {
+    border: #E599C0 5px solid;
+  }
+
+  input[type=radio][value=groene]:checked + label {
+    border: #53B849 5px solid;
+  }
+
+  input[type=radio][value=gele]:checked + label {
+    border: #FEE953 5px solid;
+  }
+
+  input[type=radio][value=rode]:checked + label {
+    border: #B93926 5px solid;
+  }
+
+  input[type=radio][value=paarse]:checked + label {
+    border: #A076B1 5px solid;
+  }
+
+  input[type=radio] + label {
+    height: 11vw;
+    width: 11vw;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1vw;
+    padding: 0.8vw;
+    background-origin: content-box;
+  }
+
+input[type=radio] {
+  display: none;
+}
+
+.name, .submit, .donutwrapper{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+input[type=text] {
+text-align: center;
+font-size: 3em;
+width: 30vw;
+height: 5vw;
+border:1px black solid;
+color: gray;
+}
+
+input[type=submit] {
+width: 30vw;
+height: 5vw;
+border:1px black solid;
+color: gray;
+}
+
+form {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255,192,203);
+}
+

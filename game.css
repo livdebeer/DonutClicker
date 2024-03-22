@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'PinkyDonutsRegular';
+    src: url(fonts/PinkyDonutsRegular.ttf);
+    font-family: 'Bubbly';
+    src: url(fonts/Double_Bubble_shadow.otf);
+    font-family: 'Ellis';
+    src: url(fonts/Jennifer\ Ellis.ttf);
+    font-family: 'Confa' ;
+    src: url(fonts/Confarreatio.otf);
+    font-family: 'RubberDucks';
+    src: url(fonts/Double_Bubble_shadow.otf);
+    font-family: 'Foxy';
+    src: url(fonts/Foxy\ Glam.ttf);
+  }
+
+
+header {
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+body {
+    text-align: center;
+    background-color: #FFE4C9;
+    background-size: cover;
+}
+
+#donut {
+    z-index: 2;
+    border-radius: 50%;
+    width: 20vw;
+    height: 19vw;
+    margin: auto;
+    margin-top: 10vh;
+    box-shadow: 28px 28px 39px 6px rgba(0,0,0,0.75);
+}
+
+#donut:hover{
+    cursor: pointer;
+}
+
+.clicked {
+    animation: clicked 0.3s ease;
+}
+
+@keyframes clicked {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+ 
+.clickedMetRotate {
+    animation: clickedMetRotate 0.3s ease;
+}
+
+@keyframes clickedMetRotate {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.2) rotate(180deg);}
+    100%{transform: scale(1) rotate(360deg);}
+}
+
+h1{
+    font-size: 10em;
+    color: #FF8E8F;
+    font-family: 'Foxy';
+}
+
+#upgradewrapper {
+    position: absolute;
+    bottom: 3vw;
+    right: 2vw;
+    width: 20vw;
+    height: 46vh;
+    background-color: #E78895;
+    border: 2px rgb(112, 112, 112) groove ;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+#upgradewrapper > p{
+    display: inline-block;
+}
+
+h3 {
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+
+#upgradewrapper > h3:hover {
+    cursor:pointer;
+}
+
+.koop{
+    background-color: #ababab; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px rgb(112, 112, 112)  outset;
+    border-radius: 10px;
+}
+
+.clicked2 {
+    animation: clicked2 0.3s ease; 
+}
+
+@keyframes clicked2 {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.8);}
+    100%{transform: scale(1);}
+}
+ 
+
+.cost {
+    margin-right: 3em;
+}
+
+
+.info{
+    display: none;
+    position: absolute;
+    top:-7vh;
+    left:0;
+    width:100%;
+    text-align: center;
+    height: 5vh;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px black solid;
+    line-height: 5vh;
+}
+
+
+.koop:hover + .info{
+    display: block;
+}
+
+#shopwrapper {
+    position: absolute;
+    bottom: 3vw;
+    left: 2vw;
+    width: 20vw;
+    height: 40vh;
+    background-color: #FFB38E  ;
+    border: 2px rgb(112, 112, 112) groove ;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+#shopwrapper > h4:hover {
+    cursor: pointer;
+}
+
+#shopwrapper > p{
+    display: inline-block;
+}
+
+
+#aantalDonuts {
+    font-size: 3em;
+}
+
+
+.koop2{
+    background-color: #ababab;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px rgb(112, 112, 112)  outset;
+    border-radius: 7px;
+}
+
+.cost2{
+    margin: auto;
+    
+}
+

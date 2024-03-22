@@ -191,7 +191,7 @@ function buyColorLegendary(){
   }
   if (isColorLegendaryBought) {  //als je er nog een keer op klikt na het kopen
     document.getElementById("aantalDonuts").style.color = "black";
-    document.body.style.backgroundImage = 'url("/imageslegendary.gif")';
+    document.body.style.backgroundImage = 'url("images/legendary.gif")';
     legendaryButton.style.backgroundColor = '#01bc01';
 
     specialButton.style.backgroundColor = '#008000';

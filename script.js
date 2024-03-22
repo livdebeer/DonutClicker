@@ -111,7 +111,7 @@ function clickColorCool(){
     }
 
     changeDonut(-prijsPerObject["cool"]);
-    document.body.style.backgroundImage = 'url("/images/forest.jpeg")';
+    document.body.style.backgroundImage = 'url("images/forest.jpeg")';
     isColorCoolBought = true;
     coolButton.disabled = true;
     coolButton.textContent = 'Purchased Forest';
@@ -121,7 +121,7 @@ function clickColorCool(){
   }
   if (isColorCoolBought) {  
     document.getElementById("aantalDonuts").style.color = "black";
-    document.body.style.backgroundImage = 'url("/images/forest.jpeg")';
+    document.body.style.backgroundImage = 'url("images/forest.jpeg")';
     coolButton.style.backgroundColor = '#01bc01';
 
     legendaryButton.style.backgroundColor = '#008000';

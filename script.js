@@ -146,7 +146,7 @@ function buyColorSpecial(){
     }
 
     changeDonut(-prijsPerObject["special"]);
-    document.body.style.backgroundImage = 'url("/images/moon.jpeg")';
+    document.body.style.backgroundImage = 'url("images/moon.jpeg")';
     isColorSpecialBought = true;
     specialButton.disabled = true;
     specialButton.textContent = 'Purchased Moon';
@@ -156,7 +156,7 @@ function buyColorSpecial(){
   }
   if (isColorSpecialBought) {  
     document.getElementById("aantalDonuts").style.color = "white";
-    document.body.style.backgroundImage = 'url("/images/moon.jpeg")';
+    document.body.style.backgroundImage = 'url("images/moon.jpeg")';
     specialButton.style.backgroundColor = '#01bc01';
 
     legendaryButton.style.backgroundColor = '#008000';
@@ -181,7 +181,7 @@ function buyColorLegendary(){
     }
 
     changeDonut(-prijsPerObject["legendary"]);
-    document.body.style.backgroundImage = 'url("/images/legendary.gif")';
+    document.body.style.backgroundImage = 'url("images/legendary.gif")';
     isColorLegendaryBought = true;
     legendaryButton.disabled = true;
     legendaryButton.textContent = 'Purchased Trippy';
@@ -191,7 +191,7 @@ function buyColorLegendary(){
   }
   if (isColorLegendaryBought) {  //als je er nog een keer op klikt na het kopen
     document.getElementById("aantalDonuts").style.color = "black";
-    document.body.style.backgroundImage = 'url("/images/legendary.gif")';
+    document.body.style.backgroundImage = 'url("/imageslegendary.gif")';
     legendaryButton.style.backgroundColor = '#01bc01';
 
     specialButton.style.backgroundColor = '#008000';
